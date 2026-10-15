@@ -1,0 +1,17 @@
+# 游戏文件、安装实例、测试副本及本机状态不纳入仓库。
+**/Kitten Space Agency/
+**/runtime/
+**/obj/
+**/tests/install-*/
+**/installation.json
+**/autopilot.log
+**/安装测试.json
+**/测试结果.txt
+**/验证报告.json
+**/*.log
+自动驾驶Mod/bin/*
+!自动驾驶Mod/bin/KsaAutopilot.dll
+!自动驾驶Mod/bin/Mono.Cecil.dll
+.vs/
+.idea/
+*.user

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <UseAppHost>false</UseAppHost>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Tests.cs" />
+    <Reference Include="KsaAutopilot"><HintPath>../bin/KsaAutopilot.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="KSA"><HintPath>$(GamePath)/KSA.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Brutal.Core.Numerics"><HintPath>$(GamePath)/Brutal.Core.Numerics.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="BepuUtilities"><HintPath>$(GamePath)/BepuUtilities.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

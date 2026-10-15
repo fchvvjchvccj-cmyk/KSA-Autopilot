@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "build": "2026.10.13.5602",
+  "profiles": [
+    {
+      "name": "zh-Hans",
+      "ksa": "a2f31a6ddfdf7dceda32a58c2e701bd18b7c26fe7688c4103bbd6efb45d47c51",
+      "imgui": "4c892ee540b52399184a4d0629c7ebbcd69954cd028283f25abb34bd91341063",
+      "deps": "b785de86c5cd34d572594fc7636f57453bb2b08351a0e39645a61ce27f4f7714"
+    },
+    {
+      "name": "en-US",
+      "ksa": "94f6291754dffe24d18d2eef5cd925a2baa9d72fbdaef1c24182f08065348380",
+      "imgui": "ad97d91c407260c6297e6f2a2a05248f482502c487c645911d57abe56400178b",
+      "deps": "11285167633b19d0c21148b4ddeb8cc563073b0257883d60445d8e02a35669a1"
+    }
+  ]
+}
